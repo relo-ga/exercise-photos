@@ -1,0 +1,43 @@
+body{
+    margin: 0 auto;
+}
+.container{
+    background-color: rgb(231, 231, 231);
+}
+.header{
+    background-color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.container-insta{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 35px 0;
+}
+.insta{
+    margin: 35px 0;
+    width: 700px;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+.insta h2,p{
+    padding: 10px 20px;
+}
+img{
+    width: 700px;
+}
+p{
+    font-family: "Varela Round";
+}
+.insta-heading{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta-heading p{
+    color: rgb(184, 184, 184);
+}
+
